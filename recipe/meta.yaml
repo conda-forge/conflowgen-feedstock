@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >={{ python_min }}
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
-    - python >={{ python_min }}
+    - python {{ python_min }}
     - pandas >=1
     - numpy
     - peewee >=3
@@ -35,7 +35,7 @@ test:
   imports:
     - conflowgen
   requires:
-    - python >={{ python_min }}
+    - python {{ python_min }}
     - pytest
     - pip
     - parameterized
