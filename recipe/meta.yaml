@@ -26,7 +26,8 @@ requirements:
     - peewee >=3
     - enum_tools >=0.7
     - matplotlib-base
-    - plotly[kaleido]
+    - plotly
+    - python-kaleido >=1.0.0
     - seaborn
     - openpyxl
 
