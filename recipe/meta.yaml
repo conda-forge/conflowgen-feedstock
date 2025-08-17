@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 6
+  number: 7
 
 requirements:
   host:
@@ -50,7 +50,8 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'A generator for synthetic container flows at maritime container terminals with a focus is on yard operations'
+  summary: &summary 'A generator for synthetic container flows at maritime container terminals with a focus is on yard operations'
+  description: *summary
   doc_url: https://conflowgen.readthedocs.io/
   dev_url: https://github.com/1kastner/conflowgen
 
