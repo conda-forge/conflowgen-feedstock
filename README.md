@@ -13,6 +13,8 @@ Development: https://github.com/1kastner/conflowgen
 
 Documentation: https://conflowgen.readthedocs.io/
 
+A generator for synthetic container flows at maritime container terminals with a focus is on yard operations
+
 Current build status
 ====================
 

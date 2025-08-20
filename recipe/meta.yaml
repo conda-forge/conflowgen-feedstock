@@ -1,5 +1,6 @@
 {% set name = "conflowgen" %}
 {% set version = "3.0.1" %}
+{% set description = "A generator for synthetic container flows at maritime container terminals with a focus is on yard operations" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +13,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 7
+  number: 8
 
 requirements:
   host:
@@ -50,8 +51,8 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: &summary 'A generator for synthetic container flows at maritime container terminals with a focus is on yard operations'
-  description: *summary
+  summary: {{ description }}
+  description: {{ description }}
   doc_url: https://conflowgen.readthedocs.io/
   dev_url: https://github.com/1kastner/conflowgen
 
