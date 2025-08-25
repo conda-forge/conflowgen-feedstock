@@ -5,6 +5,7 @@ context:
   name: conflowgen
   version: 3.0.1
   description: A generator for synthetic container flows at maritime container terminals with a focus is on yard operations
+  python_min: 3.9
 
 package:
   name: ${{ name|lower }}
