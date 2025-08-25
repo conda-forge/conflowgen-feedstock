@@ -5,7 +5,6 @@ context:
   name: conflowgen
   version: 3.0.1
   description: A generator for synthetic container flows at maritime container terminals with a focus is on yard operations
-  python_min: 3.9
 
 package:
   name: ${{ name|lower }}
@@ -22,7 +21,7 @@ build:
 
 requirements:
   host:
-    - python ${{ python_min }}
+    - python >=${{ python_min }}
     - pip
     - setuptools
   run:
@@ -46,7 +45,7 @@ tests:
         - conflowgen/tests
     requirements:
       run:
-        - python ${{ python_min }}
+        - python >=${{ python_min }}
         - pytest
         - pip
         - parameterized
