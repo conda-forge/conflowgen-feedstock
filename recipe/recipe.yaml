@@ -56,6 +56,7 @@ tests:
 
 about:
   license: MIT
+  license_file: LICENSE
   summary: ${{ description }}
   description: ${{ description }}
   homepage: https://github.com/1kastner/conflowgen
